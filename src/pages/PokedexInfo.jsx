@@ -80,7 +80,7 @@ const PokedexInfo = () => {
                   <p className='stats-p'>{stat.base_stat}/150</p>
                 </div>
                 <div className='stats-space'>
-                  <div></div>
+                  <div className={`stats-item`} style={{ width: `${stat.base_stat / 1.5}%` }}></div>
                 </div>
                 </div>
               ))
